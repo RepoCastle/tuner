@@ -49,4 +49,8 @@ public class Constant {
     public enum RouteType {
         AStar, Dijkstra, Guide,
     }
+
+    public enum DataSourceType {
+        SHBUS, SHTAXI, SZBUS, SZTAXI,
+    }
 }
