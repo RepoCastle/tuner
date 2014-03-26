@@ -14,6 +14,7 @@ public class Constant {
 
     // FIXME:
     public static final String RegMapDir = "/tmp/data/maps/region";
+    public static final String tracePoolDir = "/tmp/data/trace";
 
     public static DecimalFormat gpsDec = new DecimalFormat("0.000000");
     public static final City defaultCity = City.cities.get("shanghai");
@@ -52,5 +53,13 @@ public class Constant {
 
     public enum DataSourceType {
         SHBUS, SHTAXI, SZBUS, SZTAXI,
+    }
+
+    public enum TracePoolType {
+        FS, DB,
+    }
+
+    public enum TraceType {
+        FRESH, TOUCHED, FINISHED,
     }
 }

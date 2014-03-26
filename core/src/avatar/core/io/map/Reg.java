@@ -37,8 +37,9 @@ public class Reg extends Map {
 		}
 		return reg;
 	}
-	public void load(String mapfile) {
+	public void load() {
 		try {
+            String mapfile = this.city.getMapfile();
 			RandomAccessFile file = new RandomAccessFile(mapfile, "r");
 			Box box = new Box(file.readDouble(),
 							  file.readDouble(),
