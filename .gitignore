@@ -1,0 +1,10 @@
+*.class
+*.swp
+*/.idea/*
+apps/*.jar
+view/.project
+view/.settings
+idls/gen-java/*
+apps/gen-java/*
+php/thrift/packages/inc/*
+idls/gen-php/*
